@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+input::placeholder {
+    color: #433520;
+  }
+  
+  .js-toDoForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'twaysky';
+  }
+  
+  .js-toDoForm input {
+    border: none;
+    background: transparent;
+    color: #433520;
+    font-size: 30px;
+    font-family: 'twaysky';
+  }
+
+.list {
+    display: flex;
+    justify-content: center;
+  }
+  .list__todo,
+  .list__finish {
+    width: 400px;
+    height: 300px;
+    margin: 50px 100px 0px 100px;
+    border-radius: 30px;
+    background-color: rgba(255, 243, 230, 0.3);
+    font-family: 'twaysky';
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }

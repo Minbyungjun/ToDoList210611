@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width">
-    <title>Something</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-  </head>
-  <body>
-    <div class="weather">
-      <span class= "js-weather"></span>
-    </div>
-    <div class="js-clock">
-      <h1>00:00</h1>
-    </div>
-    
-    <div class = "user-name">
-      <form class="js-form form">
-          <input type="text" placeholder = "Input your name?"/>
-      </form> 
-    
-      <h4 class="js-greetings greetings"></h4>
-    </div>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="What's your To-Do !?"/>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width">
+  <title>Something</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="weather">
+    <span class="js-weather"></span>
+  </div>
+  <div class="js-clock">
+    <h1 class="js-clock__Text">00:00</h1>
+  </div>
+
+  <div class="user-name">
+    <form class="js-form form">
+      <input type="text" placeholder="Input your name?" />
     </form>
+    <h4 class="js-greetings greetings"></h4>
+  </div>
+  <form class="js-toDoForm">
+    <input type="text" placeholder="What's your To-Do !?" />
+  </form>
+  </div>
+  <div class="list">
+    <div class="list__todo">
+      <!-- To-Do List 부분-->
+      <h1>To-Do</h1>
+      <ul class="js-toDoList"></ul>
     </div>
-    <div class="list">
-      <div class = "list__todo">
-        <!-- To-Do List 부분-->
-        <h1>To-Do</h1>
-        <ul class = "js-toDoList"></ul>
-      </div>
-      <div class="list__finish">
-        <!-- Finish 부분-->
-        <h1>Finished</h1>
-        <ul class = "js-finishList"></ul>
-      </div>
+    <div class="list__finish">
+      <!-- Finish 부분-->
+      <h1>Finished</h1>
+      <ul class="js-finishList"></ul>
     </div>
-    <script src="clock.js"></script>
-    <script src="greeting.js"></script>
-    <script src="todo.js"></script>
-    <script src="bg.js"></script>
-    <script src="weather.js"></script>
-  </body>
+  </div>
+  <script src="clock.js"></script>
+  <script src="greeting.js"></script>
+  <script src="todo.js"></script>
+  <script src="bg.js"></script>
+  <script src="weather.js"></script>
+</body>
+
 </html>
 
 <!-- 추가할 것.

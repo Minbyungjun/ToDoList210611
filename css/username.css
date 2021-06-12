@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes userName {
+    from {
+      transform: translateX(50px);
+    }
+    to {
+      transform: scaleZ(10);
+    }
+  }
+  
+  .user-name {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+  
+  .user-name h4 {
+    font-size: 45px;
+    margin: 0px;
+    color: #c67ace;
+    
+    font-family: 'CookieRun-Regular';
+  }
+  
+  .user-name h4:hover {
+    cursor: pointer;
+    animation: userName 1s ease-in-out;
+  }
+  
