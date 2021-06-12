@@ -8,12 +8,12 @@
 
 input::placeholder {
     color: #433520;
+    text-align: center;
   }
   
-  .js-toDoForm {
+  .js-form {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
     font-family: 'twaysky';
   }
   
